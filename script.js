@@ -1,4 +1,4 @@
-const apiUrl = "https://script.google.com/macros/s/SEU_ID_DO_SCRIPT/exec";
+const apiUrl = "https://script.google.com/macros/s/AKfycbzsmQnKOhYCWL0CzETpYb7MKu3NRJEi4wJar9SvK86Oi87saHFX-pXKyQ5nai7KCA9diw/exec";
 const videoListEl = document.getElementById("videoList");
 const playerEl = document.getElementById("player");
 
