@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyDvYe-t6Et0Y8XAshw3AijtpFXlDjjPB44';
+const API_KEY = 'AIzaSyCxT5WJGrkExDMcEYAxKfNsNtxXGJ7rc7A';
 const FOLDER_ID = '1LIdRZxyRNkw_UocUQx9ZIgnn9JYtCAUg';
 const videoListEl = document.getElementById("videoList");
 const playerEl = document.getElementById("player");
