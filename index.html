@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PLAYER DE VÍDEOS RIBEIRO XAVIER</title>
+  <title>Player de Vídeos</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
     <div class="video-player">
       <video id="player" controls autoplay></video>
+      <button id="showListBtn" onclick="showList()">Ver lista</button>
     </div>
-    <div class="video-list">
+    <div class="video-list" id="videoListContainer">
       <button onclick="toggleFullscreen()">Tela cheia</button>
+      <div id="nowPlaying"></div>
       <ul id="videoList"></ul>
     </div>
   </div>
